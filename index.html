@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Project Layout</title>
+    <link rel="stylesheet" href="css/uikit.min.css" class="css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="img/home-icon.png" class="favicon">
+
+
+</head>
+
+<body>
+     <!--navigation header start-->
+    <nav class="navbar navbar-expand-md  bg-dark navbar-dark p-2" uk-sticky="top: 200; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+      <div class="container">
+        <i class="fa fa-internet-explorer  text-light"></i>
+        <a href="index.html" class="navbar-brand ml-1 " id="header">Project Layout</a>
+        <button class="navbar-toggler navbar-toggler-right " data-toggle="collapse" data-target="#navigation-bar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navigation-bar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a  class="nav-link" href="blog.html" >Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html" >Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" >Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" >About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--carousel Slide design part-->
+
+    <section id="showing" class="bg-dark">
+      <div id="slider" class="carousel slide " data-ride="carousel">
+          <ol class="carousel-indicators ">
+                  <li class="active" data-target="#slider" data-slide-to="0"></li>
+                  <li  data-target="#slider" data-slide-to="1"></li>
+                  <li  data-target="#slider" data-slide-to="2"></li>
+                  <li  data-target="#slider" data-slide-to="3"></li>
+          </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img src="img/image1.jpeg" class="image d-block img-fluid" alt="image1">
+            <div class="carousel-caption  text-center">
+              <h1 class="display-5 text-light">Heading one!</h1>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, sequi.</p>
+              <button class="btn btn-primary">Learn More</button>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img src="img/image2.jpeg" class="image d-block img-fluid" alt="image2">
+            <div class="carousel-caption text-center">
+              <h1 class="display-5 text-light">Heading Two!</h1>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, sequi.</p>
+              <button class="btn btn-warning">Learn More</button>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img src="img/nature.jpg" class="image d-block img-fluid" alt="image3">
+            <div class="carousel-caption text-center">
+              <h1 class="display-5 text-light">Heading Three!</h1>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, sequi.</p>
+              <button class="btn btn-danger">Learn More</button>
+            </div>
+
+          </div>
+          <div class="carousel-item ">
+            <img src="img/nature1.jpg" class="image d-block img-fluid" alt="image4">
+            <div class="carousel-caption  text-center">
+              <h1 class="display-5 text-light">Heading Four!</h1>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, sequi.</p>
+              <button class="btn btn-success">Learn More</button>
+            </div>
+          </div>
+        </div>
+          <a href="#slider" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a href="#slider" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+      </div>
+    </section>
+
+
+<!--Home icon section-->
+
+<section id="icon" class="text-center py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+      <i class="fa fa-facebook"></i>
+      <h2 class="mt-1">Facebook</h2>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, eius.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="fa fa-google"></i>
+        <h2 class="mt-1">Google</h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, accusantium?</p>
+      </div>
+      <div class="col-md-4">
+        <i class="fa fa-apple"></i>
+        <h2 class="mt-1">Apple</h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, tempore?</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!--Home picture section-->
+
+<section id="picture" class="text-center text-light ">
+<div class="dark-overlay">
+  <div class="container">
+    <div class="col-md-12 mt-5 pt-5">
+      <h2>Are you see what the design is!</h2>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, dolore officia nam! Quo, iste, labore!</p>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<!--Home second section-->
+
+<section id="second" class="text-center py-4">
+ <div class="container">
+   <div class="row">
+     <div class=" mt-5 pt-5 col-lg-6   col-md-12 mt-md-1 mt-lg-0 mt-sm-0   ">
+       <h2>The Beauty is Your Baby!</h2>
+       <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis fugiat quasi repellat, vero aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, tempore? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, tempora! </p>
+       <a href="" class="btn btn-danger">Learn More</a>
+
+     </div>
+     <div class="col-lg-6 col-md-12 mt-2">
+       <img src="img/bg1.jpeg" alt="baby" class="d-block img-fluid">
+     </div>
+
+   </div>
+ </div>
+</section>
+
+
+<!--Home video section-->
+
+<section id="video" class="text-center text-light">
+  <div class="dark-overlay">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mt-5 pt-5">
+          <div uk-lightbox>
+            <a href="https://youtu.be/OyWvaMfUVZs">
+              <i class= "fa fa-play"></i>
+            </a>
+          </div>
+          <h2 class="mt-3 ">Click here to play button! </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!--photo Gallery-->
+
+<section id="photo" class="text-center  py-3">
+  <h2 class="text-center bg-dark text-light mt-1">Photo Gallery</h2>
+  <p class="lead">Checking Your photo</p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+
+      <img src="img/nature.jpg" alt="nature" class="img-fluid mt-1">
+    </div>
+    <div class="col-md-4">
+        <img src="img/image1.jpeg" alt="nature" class="img-fluid mt-1">
+    </div>
+    <div class="col-md-4">
+      <img src="img/image2.jpeg" alt="nature" class="img-fluid mt-1">
+    </div>
+    <div class="col-md-4">
+      <img src="img/image3.jpeg" alt="nature" class="img-fluid mt-3">
+    </div>
+    <div class="col-md-4">
+        <img src="img/music.jpg" alt="nature" class="img-fluid mt-3">
+    </div>
+    <div class="col-md-4">
+        <img src="img/image2.jpeg" alt="nature" class="img1 img-fluid mt-3">
+    </div>
+  </div>
+</div>
+</section>
+
+
+<!--News letter section-->
+<section id="news" class=" bg-dark text-light py-5  text-center">
+  <div class="container">
+    <div class="row">
+      <div class=" col-md-12 ">
+        <h2 class="text-light ">Signup For Our Newsletter</h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat facere nostrum natus. Nihil, modi, beatae.</p>
+        <form action="" class="form-inline justify-content-center">
+          <input class="form-control m-2" type="text" placeholder="Enter Your Name" >
+          <input class="form-control m-2" type="email" placeholder="Enter Your Email" >
+          <input class="form-control bg-dark text-light m-2" type="submit" value="Subscribe">
+        </form>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!--footer section-->
+
+<footer id="foot" class="text-center text-light py-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p class="lead mb-0 mt-2 ">Copyright&copy;Project Layout 2019</p>
+        <p class="lead mb-0 ">Design: Foyshal Rahman</p>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+
+    <script>
+      $(".carousel").carousel({
+        interval : 2000,
+        warp: true,
+        mouse: "hover"
+      });
+    </script>
+</body>
+
+</html>
+
+
+</html>

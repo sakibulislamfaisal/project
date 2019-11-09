@@ -1,0 +1,117 @@
+.navbar .nav-item {
+  padding-left: 2px; }
+
+.navbar .nav-item {
+  text-transform: uppercase; }
+
+.navbar .fa {
+  font-size: 25px; }
+
+.navbar a {
+  font-size: 19px; }
+
+.navbar #header {
+  font-size: 20px;
+  text-transform: uppercase; }
+
+.carousel .image {
+  width: 1370px;
+  height: 550px;
+  background-size: cover;
+  box-sizing: border-box; }
+
+.carousel .carousel-caption {
+  margin-top: 13rem;
+  padding-bottom: 13rem; }
+
+.carousel .carousel-indicators {
+  margin-top: 10rem;
+  padding-bottom: 10rem; }
+
+#icon .fa {
+  font-size: 60px;
+  border-radius: 5px; }
+
+#picture {
+  background: url("../img/pc.jpeg");
+  background-repeat: no-repeat;
+  min-height: 250px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative; }
+  #picture .dark-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0; }
+  #picture h2 {
+    color: white; }
+
+#video {
+  background: url("../img/music.jpg");
+  min-height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative; }
+  #video .dark-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
+  #video .fa {
+    font-size: 50px;
+    color: red; }
+  #video h2 {
+    color: white; }
+
+#photo h2 {
+  color: #fff;
+  padding: 3px; }
+
+#foot {
+  background: #333; }
+
+#about-header {
+  background: url("../img/image2.jpeg");
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+#card-section .fa {
+  font-size: 40px; }
+
+#contact-header {
+  background: url("../img/image1.jpeg");
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+#block-section img {
+  width: 80px;
+  border: 1px solid #333; }
+
+#services-header {
+  background: url("../img/image2.jpeg");
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.services a {
+  font-size: 25px; }
+
+#order-section .fa {
+  font-size: 20px; }
+
+@media (max-width: 767px) {
+  padding-left: 0px !important;
+  font-size: 2.5rem;
+  padding-bottom: 0;
+  margin-top: 0; }
+
+@media (max-width: 768px) {
+  #picture {
+    min-height: 310px; } }
