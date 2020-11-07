@@ -1,1 +1,1 @@
-# project2
+This is the basic blog project.This project contain some part just like as some section where some portion are just added staticly to the website.The project contains several types of pages .The project mainly focus on on HTML , CSS , jQuery ,Bootstrap
